@@ -10,7 +10,7 @@ terraform {
 
 data "tfe_outputs" "peter" {
   organization = "hashicorp-test-peter"
-  workspace    = "test-azure-devops"
+  workspace    = "terraform-random-pet"
 }
 
 resource "null_resource" "pet" {

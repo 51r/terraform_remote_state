@@ -13,7 +13,7 @@ data "terraform_remote_state" "peter" {
   config = {
     organization = "hashicorp-test-peter"
     workspaces = {
-      name = "test-azure-devops"
+      name = "terraform-random-pet"
 
     }
   }
