@@ -9,7 +9,8 @@ The code is using data source to get the output information from Terraform Cloud
 The use case of **terraform_remote_state** data source is inside the subdirectory `tfrs`
 
 # Prerequisite
-Terraform Cloud Account, Organization and Workspace.
+[Terraform Cloud](https://app.terraform.io/) Account, Organization and Workspace as a Source (https://github.com/51r/terraform-random-pet)
+[Terraform CLI](https://www.terraform.io/downloads) as a destination (Current repo)
 
 # How to use the repo
 1. Clone the repo locally:
